@@ -1,2 +1,3 @@
 # Background-Generator
-Changes a background gradient fill according to user input.
+Changes linear gradient background colors with user input.
+Displays the rgb properties for the chosen colors.
