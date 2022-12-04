@@ -19,6 +19,7 @@ function setGradient() {
 
 function buttonCLick() {
     console.log("cutton clicked");
+}
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
