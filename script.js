@@ -20,7 +20,7 @@ function setGradient() {
 function buttonCLick() {
     body.style.background =
     "linear-gradient(to right, "
-    + "#010101" // color1.value
+    + color1.value
     + ", "
     + color2.value
     + ")";
