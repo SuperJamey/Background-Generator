@@ -13,12 +13,22 @@ function setGradient() {
     + ", "
     + color2.value
     + ")";
-
     css.textContent = body.style.background + ";";
 }
 
 function buttonClick() {
-console.log("Button Clicked")
+    color1.value = getRandomColor();
+    color2.value = getRandomColor();
+    setGradient();
+}
+
+function getRandomColor() {
+    var letters = "0123456789abcdef";
+    var color = "#";
+    for(var i=0; i<6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
 }
 
 color1.addEventListener("input", setGradient);
